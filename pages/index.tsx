@@ -1,10 +1,5 @@
 import Head from 'next/head';
 import { initializeApollo } from '../lib/client';
-import {
-  useTasksQuery,
-  TasksQuery,
-  TasksDocument,
-} from '../generated/graphql-frontend';
 import TaskList from '../components/TaskList';
 
 export default function Home() {
